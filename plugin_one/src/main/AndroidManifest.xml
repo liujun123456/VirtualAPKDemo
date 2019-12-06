@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".PluginOneActivity">
+        <activity android:name=".activitis.PluginOneActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
