@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        findViewById<Button>(R.id.go_plugin_one).setOnClickListener {
+        findViewById<Button>(R.id.go_plugin_one)?.setOnClickListener {
             val pkg="com.jason.plugin.one"
             if (PluginManager.getInstance(this).getLoadedPlugin(pkg) == null) {
                 Toast.makeText(this, "plugin $pkg not loaded", Toast.LENGTH_SHORT).show()
@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
 
         }
 
-        findViewById<Button>(R.id.go_plugin_two).setOnClickListener {
+        findViewById<Button>(R.id.go_plugin_two)?.setOnClickListener {
             val pkg="com.jason.plugin.two"
             if (PluginManager.getInstance(this).getLoadedPlugin(pkg) == null) {
                 Toast.makeText(this, "plugin $pkg not loaded", Toast.LENGTH_SHORT).show()

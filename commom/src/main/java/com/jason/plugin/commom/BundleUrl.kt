@@ -6,7 +6,7 @@ package com.jason.plugin.commom
  * @mobile 18711832023
  */
 object BundleUrl{
-    const val PLUGIN_ONE_MAIN_URL="com.jason.plugin.plugin_one.PluginOneActivity"
-    const val PLUGIN_TWO_MAIN_URL="com.jason.plugin.plugin_two.PluginTwoActivity"
+    const val PLUGIN_ONE_MAIN_URL="com.jason.plugin.one.activitis.PluginOneActivity"
+    const val PLUGIN_TWO_MAIN_URL="com.jason.plugin.two.activitis.PluginTwoActivity"
     const val HOST_MAIN_URL="com.jason.plugin.project.MainActivity"
 }
