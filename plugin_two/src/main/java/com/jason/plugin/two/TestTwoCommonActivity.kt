@@ -1,4 +1,4 @@
-package com.jason.plugin.plugin_two
+package com.jason.plugin.two
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity

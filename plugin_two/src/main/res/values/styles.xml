@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PluginStyle"  parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/deepGreen</item>
+        <item name="colorPrimaryDark">@color/shallowGreen</item>
+        <item name="colorAccent">@color/colorPink</item>
+    </style>
+</resources>
