@@ -1,9 +1,9 @@
 # VirtualAPK的特性
 VirtualAPK是滴滴出行自研的一款优秀的插件化框架，主要有如下几个特性。
-# 功能完备
+## 功能完备
 **·** 支持几乎所有的Android特性；
 **·** 四大组件方面
-# 四大组件均不需要在宿主manifest中预注册，每个组件都有完整的生命周期。
+#### 四大组件均不需要在宿主manifest中预注册，每个组件都有完整的生命周期。
 1.Activity：支持显示和隐式调用，支持Activity的theme和LaunchMode，支持透明主题；
 2.Service：支持显示和隐式调用，支持Service的start、stop、bind和unbind，并支持跨进程bind插件中的Service；
 3.Receiver：支持静态注册和动态注册的Receiver；
@@ -12,12 +12,12 @@ VirtualAPK是滴滴出行自研的一款优秀的插件化框架，主要有如�
 6.PendingIntent：支持PendingIntent以及和其相关的Alarm、Notification和AppWidget；
 7.支持插件Application以及插件manifest中的meta-data；
 8.支持插件中的so。
-# 优秀的兼容性
+#### 优秀的兼容性
  1.兼容市面上几乎所有的Android手机，这一点已经在滴滴出行客户端中得到验证；
  2.资源方面适配小米、Vivo、Nubia等，对未知机型采用自适应适配方案；
  3.极少的Binder Hook，目前仅仅hook了两个Binder：AMS和IContentProvider，hook过程做了充分的兼容性适配；
  4.插件运行逻辑和宿主隔离，确保框架的任何问题都不会影响宿主的正常运行。
-# 入侵性极低
+#### 入侵性极低
 1.插件开发等同于原生开发，四大组件无需继承特定的基类；
 2.精简的插件包，插件可以依赖宿主中的代码和资源，也可以不依赖；
 3.插件的构建过程简单，通过Gradle插件来完成插件的构建，整个过程对开发者透明。
